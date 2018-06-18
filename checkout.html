@@ -21,27 +21,44 @@
 	</header>
 
 	<section class="checkout-logo">
-		<h4>Checkout</h4>
-		<p>Shop is a demo app - form data will not be sent</p>
+		<p class="checkout-header">Checkout</p>
+		<p class="demo-app-header">Shop is a demo app - form data will not be sent</p>
 	</section>
 	<section class="checkout-product-section">
 		<div class="accout-info">
 			<div class="selling-product-info">
+				<div class="div-box">
 				<h4>Account Information</h4>
 				<input type="text" name="email" placeholder="Email">
 				<input type="text" name="phn_no" placeholder="Phone Number">
 				<h4>Shipping Address</h4>
 				<input type="text" name="address" placeholder="Address">
 				<input type="text" name="city" placeholder="City">
-				<input type="text" name="state" class="divide-between">
-				<input type="text" name="zip" class="divide-between">
-				<h4>Billing Address</h4>
-				<input type="checkbox"><p>Use different billing address</p>
+				<div class="divide-between">
+					<input type="text" placeholder="State/Province" name="state">
+					<input type="text" placeholder="Zip/Postal Code" name="zip">
+				</div>
+				<div class="country-options">
+					<label>Country</label>
+					<select>
+						<option value="united-state">United State</option>
+						<option value="canada">Canada</option>
+					</select>
+				</div>
+				<div class="billing-option">
+					<h4>Billing Address</h4>
+					<div class="checkbox-division">
+						<input type="checkbox">
+						<p>Use different billing address</p>
+					</div>
+				</div>
+				</div>
 			</div>
 		</div>
 
 		<div class="payment-info">
 			<div class="selling-product-info">
+				<div class="div-box">
 				<h4>Payment method</h4>
 				<input type="text" name="card-name">
 				<input type="text" name="card-no">
@@ -58,6 +75,7 @@
 				<h2>Total</h2>
 				<h2>$150.60</h2>
 				<h3><a href=""></h3></a></h3>
+				</div>
 			</div>
 		</div>
 
