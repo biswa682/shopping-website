@@ -311,4 +311,10 @@ header .menu-bar{
 	.cart-details .cart-item-total-price h5{
 		padding: 0 10px;
 	}
+	.product-details .product-details-container p{
+		font-size: 17px;
+	}
+	.product-details .product-details-container .description p, .features p, .features ul li{
+		font-size: 13px;
+	}
 }

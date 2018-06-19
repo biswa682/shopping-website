@@ -93,3 +93,6 @@
 	margin-left: 42px;
 	margin-bottom: 30px; 
 }
+.product-details .product-details-container .drop-down select{
+	padding-left:100px;
+}
