@@ -1,142 +1,142 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Checkout Shop</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="style-for-checkout.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-	<header>
-		<div class="menu-bar">
-			<input type="checkbox" id="menu">
-			<label for="menu">&#9776</label>
-		</div>
-		<div class="shop-logo">
-			<h3><a href="index.html">SHOP</a></h3>
-		</div>
-		<div class="cart-logo">
-			<a href="view-cart.html"><img src="img/bucket1.png"></a>
-		</div>
-	</header>
 
-	<section class="checkout-logo">
-		<p class="checkout-header">Checkout</p>
-		<p class="demo-app-header">Shop is a demo app - form data will not be sent</p>
-	</section>
-	<section class="checkout-product-section">
-		<!-- <form action="" method="post"> -->
-		<div class="accout-info">
-			<div class="selling-product-info">
-				<div class="div-box">
-				<h4>Account Information</h4>
-				<input type="text" name="email" placeholder="Email">
-				<input type="text" name="phn_no" placeholder="Phone Number">
-				<h4>Shipping Address</h4>
-				<input type="text" name="address" placeholder="Address">
-				<input type="text" name="city" placeholder="City">
-				<div class="divide-between">
-					<input type="text" placeholder="State/Province" name="state">
-					<input type="text" placeholder="Zip/Postal Code" name="zip">
-				</div>
-				<div class="country-options">
-					<label>Country</label>
-					<select>
-						<option value="united-state">United State</option>
-						<option value="canada">Canada</option>
-					</select>
-				</div>
-				<div class="billing-option">
-					<h4>Billing Address</h4>
-					<div class="checkbox-division">
-						<!-- <label for="check">
+<head>
+    <title>Checkout-SHOP</title>
+    <link rel="shortcut icon" href="img/shop-icon.png">  
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/checkout.css">
+</head>
+
+<body>
+    <header>
+        <div class="menu-bar">
+            <input type="checkbox" id="menu">
+            <label for="menu">&#9776</label>
+        </div>
+        <div class="shop-logo">
+            <h1><a href="index.html">SHOP</a></h1>
+        </div>
+        <div class="cart-logo">
+            <a href="view-cart.html"><img src="img/bucket1.png"></a>
+        </div>
+    </header>
+
+    <section class="checkout-logo">
+        <p class="checkout-header">Checkout</p>
+        <p class="demo-app-header">Shop is a demo app - form data will not be sent</p>
+    </section>
+
+    <section class="checkout-product-section">
+        <!-- <form action="" method="post"> -->
+        <div class="accout-info">
+            <div class="selling-product-info">
+                <div class="div-box">
+                    <h4>Account Information</h4>
+                    <input type="text" name="email" placeholder="Email">
+                    <input type="text" name="phn_no" placeholder="Phone Number">
+                    <h4>Shipping Address</h4>
+                    <input type="text" name="address" placeholder="Address">
+                    <input type="text" name="city" placeholder="City">
+                    <div class="divide-between">
+                        <input type="text" placeholder="State/Province" name="state">
+                        <input type="text" placeholder="Zip/Postal Code" name="zip">
+                    </div>
+                    <div class="country-options">
+                        <label>Country</label>
+                        <select>
+                            <option value="united-state">United State</option>
+                            <option value="canada">Canada</option>
+                        </select>
+                    </div>
+                    <div class="billing-option">
+                        <h4>Billing Address</h4>
+                        <div class="checkbox-division">
+                            <!-- <label for="check">
 							<input type="checkbox" id="check">
 						</label> -->
-						<div class="checkboxFive">
-					        <input type="checkbox" id="checkboxFiveInput"/>
-					        <label for="checkboxFiveInput"></label>
-					    </div>
-						<p>Use different billing address</p>
-					</div>
-				</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="payment-info">
-			<div class="selling-product-info">
-				<div class="div-box">
-					<h4>Payment method</h4>
-					<input type="text" placeholder="Cardholder Name" name="card-name">
-					<input type="text" placeholder="Card Number" name="card-no">
-					<div class="card-details">
-						<div class="card-no">
-							<select name="month">
-								<option value="jan">Jan</option>
-								<option value="feb">Feb</option>
-								<option value="mar">Mar</option>
-								<option value="apr">Apr</option>
-								<option value="mar">Mar</option>
-								<option value="may">May</option>
-								<option value="jun">Jun</option>
-								<option value="jul">Jul</option>
-								<option value="aug">Aug</option>
-								<option value="sep">Sep</option>
-								<option value="oct">Oct</option>
-								<option value="nov">Nov</option>
-								<option value="dec">Dec</option>
-							</select>
-						</div>
-						<div class="card-no">
-							<select name="year">
-								<option value="y16">2016</option>
-								<option value="y17">2017</option>
-								<option value="y18">2018</option>
-								<option value="y19">2019</option>
-								<option value="y20">2020</option>
-								<option value="y21">2021</option>
-								<option value="y22">2022</option>
-								<option value="y23">2023</option>
-								<option value="y24">2024</option>
-								<option value="y25">2025</option>
-							</select>
-						</div>
-						<div class="card-no">
-							<input type="text" placeholder="CVV" name="cvv-no">
-						</div>
-					</div>
-					<h4>Order Summery</h4>
-					<div class="price-tags">
-						<p>Men's Tech Shell Full-Zip</p>
-						<p>$150.60</p>
-					</div>
-					<div class="price-tags">
-						<p>Total</p>
-						<p>$150.60</p>
-					</div>
-					<div class="place-order">
-						<a href="">PLACE ORDER</a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- </form> -->
-	</section>
-
-	<section class="bottom-section">
-		<div class="polymar-link">
-			<p><a href="">Made by CSS</a></p>
-		</div>
-		<div class="demo-showcase">
-			<p>DEMO ONLY</p>
-		</div>
-	</section>
-
-	<section class="bottom-cart-bar">
-		<div class="cart-bar">
-			<a href="checkout.css">PLACE ORDER</a>
-		</div>
-	</section>
+                            <div class="checkboxFive">
+                                <input type="checkbox" id="checkboxFiveInput" />
+                                <label for="checkboxFiveInput"></label>
+                            </div>
+                            <p>Use different billing address</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="payment-info">
+            <div class="selling-product-info">
+                <div class="div-box">
+                    <h4>Payment method</h4>
+                    <input type="text" placeholder="Cardholder Name" name="card-name">
+                    <input type="text" placeholder="Card Number" name="card-no">
+                    <div class="card-details">
+                        <div class="card-no">
+                            <select name="month">
+                                <option value="jan">Jan</option>
+                                <option value="feb">Feb</option>
+                                <option value="mar">Mar</option>
+                                <option value="apr">Apr</option>
+                                <option value="mar">Mar</option>
+                                <option value="may">May</option>
+                                <option value="jun">Jun</option>
+                                <option value="jul">Jul</option>
+                                <option value="aug">Aug</option>
+                                <option value="sep">Sep</option>
+                                <option value="oct">Oct</option>
+                                <option value="nov">Nov</option>
+                                <option value="dec">Dec</option>
+                            </select>
+                        </div>
+                        <div class="card-no">
+                            <select name="year">
+                                <option value="y16">2016</option>
+                                <option value="y17">2017</option>
+                                <option value="y18">2018</option>
+                                <option value="y19">2019</option>
+                                <option value="y20">2020</option>
+                                <option value="y21">2021</option>
+                                <option value="y22">2022</option>
+                                <option value="y23">2023</option>
+                                <option value="y24">2024</option>
+                                <option value="y25">2025</option>
+                            </select>
+                        </div>
+                        <div class="card-no">
+                            <input type="text" placeholder="CVV" name="cvv-no">
+                        </div>
+                    </div>
+                    <h4>Order Summery</h4>
+                    <div class="price-tags">
+                        <p>Men's Tech Shell Full-Zip</p>
+                        <p>$150.60</p>
+                    </div>
+                    <div class="price-tags">
+                        <p>Total</p>
+                        <p>$150.60</p>
+                    </div>
+                    <div class="place-order">
+                        <a href="" class="click-btn">PLACE ORDER</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </form> -->
+    </section>
+    <section class="bottom-section">
+        <div class="polymer-link">
+            <p><a href="">Made by CSS</a></p>
+        </div>
+        <div class="demo-showcase">
+            <p>DEMO ONLY</p>
+        </div>
+    </section>
+    <section class="bottom-cart-bar">
+        <div class="cart-bar">
+            <a href="checkout.css">PLACE ORDER</a>
+        </div>
+    </section>
 </body>
+
 </html>

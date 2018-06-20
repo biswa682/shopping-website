@@ -1,0 +1,136 @@
+.checkout-logo {
+    text-align: center;
+    margin-top: 50px;
+    line-height: 28px;
+}
+
+.checkout-logo .checkout-header {
+    padding-top: 30px;
+    color: red;
+}
+
+.checkout-logo .demo-app-header {
+    font-size: 12px;
+    color: #737373;
+}
+
+.checkout-product-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px; 
+}
+
+.checkout-product-section .accout-info {
+    flex-basis: 39%;
+}
+
+.checkout-product-section .payment-info {
+    flex-basis: 39%;
+}
+
+.div-box {
+    width: 78%;
+    margin: 0 auto;
+    padding-top: 0.6vw;
+    padding-right: 2.2vw;
+}
+
+.selling-product-info h4 {
+    margin-top: 40px;
+    font-size: 13px;
+}
+
+.checkout-product-section .accout-info input[type="text"],
+.payment-info input[type="text"] {
+    border-bottom: 1px solid #a6a6a6;
+    background-color: transparent;
+    /*background-color: red;*/
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    width: 100%;
+    height: 55px;
+    font-size: 17px;
+    outline: none;
+    margin: 15px 0;
+    /*padding-top: 10px;*/
+}
+
+.selling-product-info .divide-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.selling-product-info .divide-between input {
+    flex-basis: 48%;
+}
+
+.country-options {
+    padding: 10px 0;
+}
+
+.country-options label {
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+.country-options select {
+    width: 100%;
+    background-color: transparent;
+    font-size: 19px;
+    border: 0;
+    border-bottom: 1px solid #a6a6a6;
+    outline: none;
+    padding: 10px 0;
+}
+
+.checkbox-division {
+    display: flex;
+    margin: 20px 0;
+    /*justify-content: flex-start;*/
+}
+
+.checkbox-division p {
+    padding-left: 20px;
+}
+
+.price-tags {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.price-tags p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.selling-product-info .card-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.selling-product-info .card-details select {
+    border-bottom: 1px solid #a6a6a6;
+    background-color: transparent;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    width: 100%;
+    height: 60px;
+    font-size: 16px;
+    outline: none;
+    margin-top: 11px;
+    /*padding-left: 70px;*/
+}
+
+.card-details .card-no {
+    flex-basis: 30%;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .checkout-logo .checkout-header{
+        color: #00ff00;
+    }
+}
